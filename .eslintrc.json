@@ -19,10 +19,36 @@
     "react"
   ],
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "comma-dangle": ["error", "always-multiline"],
-    "object-curly-newline": ["error", { "multiline": true }],
-    "semi": ["error", "never"],
-    "jsx-quotes": ["error", "prefer-single"]
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "multiline": true
+      }
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
+    "arrow-body-style": [
+      "error",
+      "always"
+    ]
   }
 }
