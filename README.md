@@ -1,7 +1,7 @@
 ## Page
 
-* HomePage
-* ProductCollectionPage
-* ProductPage
-* CartPage
-* CheckoutPage
+* HomePage /mall
+* ProductCollectionPage /mall/xxx
+* ProductPage /xxx
+* CartPage /cart
+* CheckoutPage / checkout
