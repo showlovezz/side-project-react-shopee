@@ -1,8 +1,12 @@
 import React from 'react'
 
+import DefaultLayout from '../components/layout/DefaultLayout'
+
 const ProductPage = () => {
   return (
-    <div>ProductPage</div>
+    <DefaultLayout>
+      ProductPage
+    </DefaultLayout>
   )
 }
 

@@ -1,8 +1,14 @@
 import React from 'react'
 
+import DefaultLayout from '../components/layout/DefaultLayout'
+import ClearFix from '../components/common/ClearFix'
+
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <DefaultLayout fixedHeader>
+      <ClearFix />
+      HomePage
+    </DefaultLayout>
   )
 }
 
