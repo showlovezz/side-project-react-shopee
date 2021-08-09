@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
 import Header from './Header'
+import Footer from './Footer'
+
+import Container from '../common/Container'
 
 const PageHeader = styled.div`
   ${(props) => {
@@ -18,8 +21,11 @@ const DefaultLayout = ({ fixedHeader, children }) => {
       <PageHeader fixed={fixedHeader}>
         <Header />
       </PageHeader>
-      {children}
-      <footer>This is Header</footer>
+      <Container>
+        {children}
+      </Container>
+
+      <Footer />
     </div>
   )
 }
