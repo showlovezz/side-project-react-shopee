@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
+import 'antd/dist/antd.css'
 
 import HomePage from './pages/HomePage'
 import CartPage from './pages/CartPage'
